@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Finaltreasurehunt</string>
+    <string name="und">By using this application you agree to our <u>Terms of Use and Privacy Policy</u></string>
+    <string name="title_activity_homescreen">homescreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

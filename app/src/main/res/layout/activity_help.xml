@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kaarthiha.finaltreasurehunt.help"
+    android:background="@drawable/back">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="About Treasure Hunt"
+        android:id="@+id/textView28"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" It is a game app where people of all ages would enjoy finding the clues and reaching their final destination. The existing treasure hunt is played by people in the real time scenario. By this application people could play the treasure hunt at any place, any time. Treasure could be located anywhere around  the respective places. Participants follow a set of directions and discover clues  to help solve a puzzle. Presently those clues are written in the paper. Online  treasure hunts involve participants following clues and visit the physical  locations.By getting the participant present location, the expected answer will be checked and move to the next clue to solve the riddle. This is done by navigational  techniques or by the global positioning system receiver."
+        android:id="@+id/textView29"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView28"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>

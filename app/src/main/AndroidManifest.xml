@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kaarthiha.finaltreasurehunt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".introactivity" />
+        <activity android:name=".signup">
+            <intent-filter>
+                <action android:name="com.example.kaarthiha.finaltreasurehunt.signup" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".rules" />
+        <activity
+            android:name=".homescreen"
+            android:label="@string/title_activity_homescreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".createhunt">
+            <intent-filter>
+                <action android:name="com.example.kaarthiha.finaltreasurehunt.createhunt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".eventrule">
+            <intent-filter>
+                <action android:name="com.example.kaarthiha.finaltreasurehunt.eventrule" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".question2">
+            <intent-filter>
+                <action android:name="com.example.kaarthiha.finaltreasurehunt.question2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".question3">
+            <intent-filter>
+                <action android:name="com.example.kaarthiha.finaltreasurehunt.question3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".question4">
+            <intent-filter>
+                <action android:name="com.example.kaarthiha.finaltreasurehunt.question4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".question5">
+            <intent-filter>
+                <action android:name="com.example.kaarthiha.finaltreasurehunt.question5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".finallast">
+            <intent-filter>
+                <action android:name="com.example.kaarthiha.finaltreasurehunt.finallast" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".youhunt">
+            <intent-filter>
+                <action android:name="com.example.kaarthiha.finaltreasurehunt.youhunt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".participants">
+            <intent-filter>
+                <action android:name="com.example.kaarthiha.finaltreasurehunt.participants" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".otp" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="28f92ae1f623d27033aa74e55d2de2ca613342fa" />
+
+        <activity android:name=".help" />
+        <activity android:name=".disp"></activity>
+    </application>
+
+</manifest>
